@@ -1,0 +1,76 @@
+.rounded-image img {
+	width: 325px;
+	height:auto;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    margin-left: 35%;
+    border-radius: 50%;
+    -webkit-filter: saturate(0);
+    margin-bottom:40px;
+}
+
+.rounded-image {
+
+	margin:0 auto;
+}
+
+
+
+h1 {
+    color: #CCFFCC;  
+    font-family: Impact;
+    text-align: center; 
+    font-size: 300%;   
+}    
+
+.header {
+  padding: 5px;
+  margin: 10px;
+  }
+  
+
+.header h1{
+  padding: 30px;
+  }
+
+
+body{
+  background-image: url("http://ak1.picdn.net/shutterstock/videos/1355668/preview/stock-footage-animated-printed-circuit-board-background.jpg");
+  background-attachment: fixed;
+}
+
+main {
+  float: center;
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  background-color: #CCFFCC;
+  text-align: center; 
+  box-shadow:10px 10px 5px #888888;
+  font-family: Impact;
+  color: #333;
+  font-size: 120%;
+  }
+
+nav {
+     font-family: Impact; 
+     font-size: 100%;
+     text-align: left;
+     padding-top: 50px;   
+     padding-bottom: 100px;          
+}
+
+
+a:link{
+  color: #CCFFCC;
+}
+
+a:visited{
+	color: #CCFFCC;
+}
+
+footer{
+  color: #CCFFCC;
+  }
