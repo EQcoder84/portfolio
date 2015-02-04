@@ -4,17 +4,11 @@
 	-ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
     transform: rotate(90deg);
-    margin-left: 35%;
+    margin-left: 37%;
     border-radius: 50%;
     -webkit-filter: saturate(0);
     margin-bottom:40px;
 }
-
-.rounded-image {
-
-	margin:0 auto;
-}
-
 
 
 h1 {
@@ -56,11 +50,11 @@ main {
 
 nav {
      font-family: Impact; 
-     font-size: 100%;
-     text-align: left;
+     font-size: 147%;
+     text-align: center;
      padding-top: 50px;   
-     padding-bottom: 100px;          
-}
+     padding-bottom: 100px;
+ }
 
 
 a:link{
@@ -71,6 +65,33 @@ a:visited{
 	color: #CCFFCC;
 }
 
-footer{
+h3 {
+    font-family: Impact; 
+     font-size: 80%;
+     text-align: left;
+     padding-top: 100px;   
+     padding-bottom: 0px;
+     color: #CCFFCC;
+}
+
+h4 {
+	font-family: Impact; 
+     font-size: 70%;
+     text-align: left;
+     padding-top: 0px;   
+     padding-bottom: 0px;
+     color: #CCFFCC;
+}
+
+h5 {
+	font-family: Impact; 
+     font-size: 70%;
+     text-align: left;
+     padding-top: 0px;   
+     padding-bottom: 0px;
+     color: #CCFFCC;
+}
+
+footer {
   color: #CCFFCC;
   }
