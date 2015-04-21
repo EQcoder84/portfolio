@@ -1,5 +1,10 @@
 require "sinatra"
 
-get '/' do
-	send_file File.join(settings.public_folder, 'resumeportsite.html')
+
+post '/' do 
+	puts "Hello world"
 end
+
+
+
+

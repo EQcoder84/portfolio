@@ -1,4 +1,4 @@
-.rounded-image img {
+.headshot img {
 	width: 325px;
 	height:auto;
 	-ms-transform: rotate(90deg); /* IE 9 */
@@ -23,11 +23,52 @@ h1 {
   margin: 10px;
   }
   
+  .sub-header {
+    padding: 5px;
+    margin: 10px;
+  }
 
 .header h1{
   padding: 30px;
   }
 
+.navbar-inverse {
+  border-color: #006080;
+  border-bottom: 3px solid #3498db;
+}
+
+.navbar {
+  min-height: 0px;
+  width: 461px;
+  border-radius: 0px;
+  margin: 0px auto;
+  background-color: #006080;
+}
+
+.nav-links {
+  padding: 0px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0,0,0,0);
+
+nav li {
+  display: inline;
+}
 
 body{
   background-image: url("http://ak1.picdn.net/shutterstock/videos/1355668/preview/stock-footage-animated-printed-circuit-board-background.jpg");
@@ -39,7 +80,7 @@ main {
   position: relative;
   margin: 0 auto;
   width: 500px;
-  height: 300px;
+  height: 310px;
   background-color: #CCFFCC;
   text-align: center; 
   box-shadow:10px 10px 5px #888888;
