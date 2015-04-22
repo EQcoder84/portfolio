@@ -71,11 +71,11 @@ nav li {
 }
 
 body{
-  background-image: url("http://ak1.picdn.net/shutterstock/videos/1355668/preview/stock-footage-animated-printed-circuit-board-background.jpg");
+  background-color: #D1D8E6;
   background-attachment: fixed;
 }
 
-main {
+#welcome {
   float: center;
   position: relative;
   margin: 0 auto;
@@ -89,7 +89,7 @@ main {
   font-size: 120%;
   }
 
-nav {
+#projects {
      font-family: Impact; 
      font-size: 147%;
      text-align: center;
