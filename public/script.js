@@ -1,11 +1,16 @@
 $(document).ready(function () {
-$('.grow').mouseenter(function() {
-        $('.grow').fadeTo('fast', 1);
+$('div').mouseenter(function() {
+        $('.grow').fadeTo('fast', 0.5);
 });
     
     $('div').mouseleave(function() {
         $('.grow').fadeTo('fast', 0.5);
     });
+ 
+     $('nav').hover(function() {
+     	$('#projects').slideToggle('slow');
+     });
+
  });
 
 

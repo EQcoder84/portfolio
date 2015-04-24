@@ -82,8 +82,9 @@ body{
   width: 500px;
   height: 310px;
   background-color: #CCFFCC;
+  border: 2px solid #000000;
+  border-radius: 13px;
   text-align: center; 
-  box-shadow:10px 10px 5px #888888;
   font-family: Impact;
   color: #333;
   font-size: 120%;
@@ -95,6 +96,8 @@ body{
      text-align: center;
      padding-top: 50px;   
      padding-bottom: 100px;
+     border: 2px solid #000000;
+     border-radius: 13px;
  }
 
 
@@ -135,4 +138,10 @@ h5 {
 
 footer {
   color: #CCFFCC;
+  }
+
+  #contact {
+    border: 2px solid #000000;
+    border-radius: 13px;
+    background-color: #CCFFCC;
   }
